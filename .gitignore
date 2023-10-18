@@ -1,7 +1,7 @@
 data/
 log/
-/visual_heal.py
-/visual_hyperparams_ablation.py
-/visual_kd.py
-/visual_prediction.py
-/visual_table.py
+visual_heal.py
+visual_hyperparams_ablation.py
+visual_kd.py
+visual_prediction.py
+visual_table.py

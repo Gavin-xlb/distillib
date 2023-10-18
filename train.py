@@ -70,48 +70,6 @@ lits_ckpt_dict = {
     }
 }
 
-# kits_ckpt_dict = {
-#     'organ': {
-#         'raunet': 'checkpoint_kits_organ_raunet_epoch=053-dice_class0=0.9689.ckpt',
-#         'pspnet': 'checkpoint_kits_organ_pspnet_epoch=039-dice_class0=0.9646.ckpt',
-#         'unet': 'checkpoint_kits_organ_unet_epoch=047-dice_class0=0.9665.ckpt',
-#         'unet++': 'checkpoint_kits_organ_unet++_epoch=046-dice_class0=0.9666.ckpt',
-#         'enet': 'checkpoint_kits_organ_enet_epoch=074-dice_class0=0.9654.ckpt',
-#         'mobilenetv2': 'checkpoint_kits_organ_mobilenetv2_epoch=069-dice_class0=0.9421.ckpt',
-#         'resnet18': 'checkpoint_kits_organ_resnet18_epoch=049-dice_class0=0.9264.ckpt'
-#     },
-#     'tumor': {
-#         'raunet': 'checkpoint_kits_tumor_raunet_epoch=064-dice_class0=0.7856.ckpt',
-#         'pspnet': 'checkpoint_kits_tumor_pspnet_epoch=068-dice_class0=0.7171.ckpt',
-#         'unet': 'checkpoint_kits_tumor_unet_epoch=082-dice_class0=0.6433.ckpt',
-#         'unet++': 'checkpoint_kits_tumor_unet++_epoch=078-dice_class0=0.6649.ckpt',
-#         'enet': 'checkpoint_kits_tumor_enet_epoch=046-dice_class0=0.5261.ckpt',
-#         'mobilenetv2': 'checkpoint_kits_tumor_mobilenetv2_epoch=070-dice_class0=0.6891.ckpt',
-#         'resnet18': 'checkpoint_kits_tumor_resnet18_epoch=057-dice_class0=0.5174.ckpt'
-#     }
-# }
-
-# lits_ckpt_dict = {
-#     'organ': {
-#         'raunet': 'checkpoint_lits_organ_raunet_epoch=032-dice_class0=0.9627.ckpt',
-#         'pspnet': 'checkpoint_lits_organ_pspnet_epoch=027-dice_class0=0.9603.ckpt',
-#         'unet': 'checkpoint_lits_organ_unet_epoch=047-dice_class0=0.9549.ckpt',
-#         'unet++': 'checkpoint_lits_organ_unet++_epoch=042-dice_class0=0.9546.ckpt',
-#         'enet': 'checkpoint_lits_organ_enet_epoch=022-dice_class0=0.9603.ckpt',
-#         'mobilenetv2': 'checkpoint_lits_organ_mobilenetv2_epoch=054-dice_class0=0.9496.ckpt',
-#         'resnet18': 'checkpoint_lits_organ_resnet18_epoch=033-dice_class0=0.9451.ckpt'
-#     },
-#     'tumor': {
-#         'raunet': 'checkpoint_lits_tumor_raunet_epoch=030-dice_class0=0.6136.ckpt',
-#         'pspnet': 'checkpoint_lits_tumor_pspnet_epoch=034-dice_class0=0.6533.ckpt',
-#         'unet': 'checkpoint_lits_tumor_unet_epoch=072-dice_class0=0.6081.ckpt',
-#         'unet++': 'checkpoint_lits_tumor_unet++_epoch=081-dice_class0=0.6207.ckpt',
-#         'enet': 'checkpoint_lits_tumor_enet_epoch=059-dice_class0=0.5769.ckpt',
-#         'mobilenetv2': 'checkpoint_lits_tumor_mobilenetv2_epoch=051-dice_class0=0.5677.ckpt',
-#         'resnet18': 'checkpoint_lits_tumor_resnet18_epoch=020-dice_class0=0.4767.ckpt'
-#     }
-# }
-
 parser = argparse.ArgumentParser('train')
 parser.add_argument('--train_data_path', type=str, default='')
 parser.add_argument('--test_data_path', type=str, default='')
