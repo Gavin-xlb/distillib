@@ -1,5 +1,5 @@
-# CAFKD
-Cross Attention-enhanced Feature Knowledge Distillation
+# SPARK
+SPARK: Cross-Guided Knowledge Distillation with Spatial Position Augmentation for Medical Image Segmentation
 
 # Structure of this repository
 This repository is organized as:
@@ -100,7 +100,7 @@ task: ['organ', 'tumor']
 For example, use ENet as student model and use UNet as a teacher model
 
 ```
-python train_kd.py --dataset kits --task tumor --tmodel unet --smodel enet --gpu_id 0 --kd_method CrossEhcdAttKD
+python train_kd.py --dataset kits --task tumor --tmodel unet --smodel enet --gpu_id 0 --kd_method SPARK
 ```
 
 Additionally, you can change student model by revising ```--smodel```, similarly, you can try other methods of knowledge distillation by revising ```--kd_method```.It's worth noting that we don't assigning a value to ```--tckpt``` which is the teacher model weights file, because we define a dict that holds the paths to all the required teacher model weights files.
